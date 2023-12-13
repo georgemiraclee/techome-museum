@@ -6,7 +6,8 @@ import Pages3 from "./pages/Pages3";
 import Pages4 from "./pages/Pages4";
 import Pages5 from "./pages/Pages5";
 import Pages6 from "./pages/Pages6";
-import About from "./pages/About"
+import About from "./pages/About";
+import Teams from "./pages/Teams";
 import ScrollToTop from "./pages/ScrollOnTop";
 
 function App() {
@@ -33,6 +34,10 @@ function App() {
               <Route
               path="/about"
               element={<About />}
+            />
+             <Route
+              path="/Teams"
+              element={<Teams />}
             />
             <Route path="/test1" element={<MainSection />} />
 

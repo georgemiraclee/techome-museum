@@ -1,13 +1,15 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";  // Import the Link component
 import "../css/footer.css";
 import Logo from "../images/logomoiseum.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import About from "../pages/About"
+
 function Footer() {
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <div className="footers">
       <footer>
@@ -20,18 +22,17 @@ function Footer() {
           <div className="col col2" data-aos="fade-right">
             <ul>
               <li>
-                <a href="#">Museum</a>
+                <Link to="/">Museum</Link> {/* Update the link */}
               </li>
               <li>
-                <a href="#">About</a>
+                <Link to="/about">About</Link> {/* Update the link */}
               </li>
               <li>
-                <a href="/src/pages/About.jsx">Our Teams</a>
+                <Link to="/teams">Our Teams</Link> {/* Update the link */}
               </li>
             </ul>
             <div className="social">
               <i className="fa-brands fa-facebook-f"></i>
-
               <i className="fa-brands fa-instagram"></i>
             </div>
           </div>

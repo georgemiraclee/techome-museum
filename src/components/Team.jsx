@@ -24,7 +24,7 @@ function Teams() {
               </span>
               useum
             </span>{" "}
-            Team
+            Teams
           </h1>
         </div>
       </div>
@@ -34,8 +34,26 @@ function Teams() {
             <img src={Person} alt="" />
           </div>
           <div className="nama-container">
-            <h1>George Miracle T</h1>
-            <span>Frontend Developer</span>
+            <h1>George Miracle Theophylus</h1>
+            <span>Techome - Universitas Diponegoro</span>
+          </div>
+        </div>
+        <div className="card-pembungkus" data-aos="zoom-in">
+          <div className="card-item">
+            <img src={Person} alt="" />
+          </div>
+          <div className="nama-container">
+            <h1>Samuel Arya Permana</h1>
+            <span>Techome - Universitas Diponegoro</span>
+          </div>
+        </div>
+        <div className="card-pembungkus" data-aos="zoom-in">
+          <div className="card-item">
+            <img src={Person} alt="" />
+          </div>
+          <div className="nama-container">
+            <h1>Nikolaus Evan Dewanto</h1>
+            <span>Techome - Universitas Diponegoro</span>
           </div>
         </div>
       </div>

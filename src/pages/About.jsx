@@ -1,13 +1,9 @@
 import React, { useEffect } from "react";
-import { BsFillPlayFill } from "react-icons/bs";
 import Patung from "../images/grouping2.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
-
-import Teams from "../components/Test";
-import MainSection from "../components/MainSection";
+import Teams from "../components/Team";
 
 function About() {
   useEffect(() => {
@@ -26,9 +22,7 @@ function About() {
             <h1 style={{ fontFamily: "Darker Grotesque", fontWeight: 900 }}>
               About{" "}
               <span style={{ fontWeight: 900 }}>
-                <span style={{ color: "#4aa9f7", fontFamily: "MuseoModerno" }}>
-                  M
-                </span>
+                <span style={{ color: "#4aa9f7", fontFamily: "MuseoModerno" }}>M</span>
                 useum
               </span>{" "}
               Exhibition
@@ -39,10 +33,7 @@ function About() {
           </div>
 
           <div className="about-desc" data-aos="fade-up">
-            <p>
-              Museum Exhibition Website hadir untuk para penggiat sejarah indonesia 
-              kami menghadirkan display museum terbaik untuk anda.
-            </p>
+            <p>Museum Exhibition Website hadir untuk para penggiat sejarah indonesia kami menghadirkan display museum terbaik untuk anda.</p>
             <div className="button-readmore">Selengkapnya</div>
           </div>
         </div>
@@ -60,7 +51,7 @@ function About() {
               Cerita Kita <span style={{ color: "#4aa9f7" }}>Indonesia</span>
             </h1>
           </div>
-            </div>
+        </div>
       </div>
       <hr className="hr" />
 

@@ -5,8 +5,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-
-import Teams from "../components/Test";
 import MainSection from "../components/MainSection";
 
 function Home() {
@@ -27,9 +25,7 @@ function Home() {
             <h1 style={{ fontFamily: "Darker Grotesque", fontWeight: 900 }}>
               About{" "}
               <span style={{ fontWeight: 900 }}>
-                <span style={{ color: "#4aa9f7", fontFamily: "MuseoModerno" }}>
-                  M
-                </span>
+                <span style={{ color: "#4aa9f7", fontFamily: "MuseoModerno" }}>M</span>
                 useum
               </span>{" "}
               Exhibition
@@ -40,10 +36,7 @@ function Home() {
           </div>
 
           <div className="about-desc" data-aos="fade-up">
-            <p>
-              Museum Exhibition Website hadir untuk para penggiat sejarah indonesia 
-              kami menghadirkan display museum terbaik untuk anda.
-            </p>
+            <p>Museum Exhibition Website hadir untuk para penggiat sejarah indonesia kami menghadirkan display museum terbaik untuk anda.</p>
             <div className="button-readmore">Selengkapnya</div>
           </div>
         </div>
@@ -67,11 +60,7 @@ function Home() {
               <div className="title-card">
                 <h2>Pembentukan BPUPKI</h2>
               </div>
-              <div className="desc-card">
-                Badan Usaha Persiapan Kemerdekaan Indonesia atau Dokuritsu Junbi
-                Cosakai adalah badan yang didirikan untuk mempersiapkan komponen
-                ...
-              </div>
+              <div className="desc-card">Badan Usaha Persiapan Kemerdekaan Indonesia atau Dokuritsu Junbi Cosakai adalah badan yang didirikan untuk mempersiapkan komponen ...</div>
               <div className="play-button">
                 <Link className="circle" to="/sejarah-pembentukan-bpupki">
                   <BsFillPlayFill color="#0c0d36" />
@@ -84,11 +73,7 @@ function Home() {
               <div className="title-card">
                 <h2>Pembentukan PPKI</h2>
               </div>
-              <div className="desc-card">
-                Panitia Persiapan Kemerdekaan Indonesia atau Dokuritsu Junbi
-                Inkai adalah badan yang dibentuk Jepang untuk mempersiapkan
-                kemerdekaan Indonesia ...
-              </div>
+              <div className="desc-card">Panitia Persiapan Kemerdekaan Indonesia atau Dokuritsu Junbi Inkai adalah badan yang dibentuk Jepang untuk mempersiapkan kemerdekaan Indonesia ...</div>
               <div className="play-button">
                 <Link className="circle" to="/sejarah-pembentukan-ppki">
                   <BsFillPlayFill color="#0c0d36" />
@@ -99,20 +84,11 @@ function Home() {
               {" "}
               <div className="new-badge">NEW</div>
               <div className="title-card">
-                <h2 style={{ fontSize: 34, lineHeight: 1 }}>
-                  Pengeboman Hiroshima dan Nagasaki
-                </h2>
+                <h2 style={{ fontSize: 34, lineHeight: 1 }}>Pengeboman Hiroshima dan Nagasaki</h2>
               </div>
-              <div className="desc-card">
-                Peristiwa pengeboman Hiroshima dan Nagasaki oleh sekutu menjadi
-                faktor eksternal yang memengaruhi peristiwa Proklamasi
-                Kemerdekaan. ...
-              </div>
+              <div className="desc-card">Peristiwa pengeboman Hiroshima dan Nagasaki oleh sekutu menjadi faktor eksternal yang memengaruhi peristiwa Proklamasi Kemerdekaan. ...</div>
               <div className="play-button">
-                <Link
-                  className="circle"
-                  to="sejarah-pengeboman-hiroshimadannagasaki"
-                >
+                <Link className="circle" to="sejarah-pengeboman-hiroshimadannagasaki">
                   <BsFillPlayFill color="#0c0d36" />
                 </Link>
               </div>
@@ -121,15 +97,9 @@ function Home() {
               {" "}
               <div className="new-badge">NEW</div>
               <div className="title-card">
-                <h2 style={{ fontSize: 40, lineHeight: 1 }}>
-                  Peristiwa Rengasdengklok
-                </h2>
+                <h2 style={{ fontSize: 40, lineHeight: 1 }}>Peristiwa Rengasdengklok</h2>
               </div>
-              <div className="desc-card">
-                Menyerahnya Jepang kepada Sekutu menimbulkan tekanan Golongan
-                Muda agar Golongan Tua segera mempercepat proklamasi
-                kemerdekaan. Namun kedua tokoh Golongan Tua ...
-              </div>
+              <div className="desc-card">Menyerahnya Jepang kepada Sekutu menimbulkan tekanan Golongan Muda agar Golongan Tua segera mempercepat proklamasi kemerdekaan. Namun kedua tokoh Golongan Tua ...</div>
               <div className="play-button">
                 <Link className="circle" to="/sejarah-peristiwa-rengasdengklok">
                   <BsFillPlayFill color="#0c0d36" />
@@ -140,20 +110,11 @@ function Home() {
               {" "}
               <div className="new-badge">NEW</div>
               <div className="title-card">
-                <h2 style={{ fontSize: 33, lineHeight: 1 }}>
-                  Penyusunan Naskah Proklamasi
-                </h2>
+                <h2 style={{ fontSize: 33, lineHeight: 1 }}>Penyusunan Naskah Proklamasi</h2>
               </div>
-              <div className="desc-card">
-                Badan Usaha Persiapan Kemerdekaan Indonesia atau Dokuritsu Junbi
-                Cosakai adalah badan yang didirikan untuk mempersiapkan komponen
-                ...
-              </div>
+              <div className="desc-card">Badan Usaha Persiapan Kemerdekaan Indonesia atau Dokuritsu Junbi Cosakai adalah badan yang didirikan untuk mempersiapkan komponen ...</div>
               <div className="play-button">
-                <Link
-                  className="circle"
-                  to="/sejarah-penyusunan-naskahproklamasi"
-                >
+                <Link className="circle" to="/sejarah-penyusunan-naskahproklamasi">
                   <BsFillPlayFill color="#0c0d36" />
                 </Link>
               </div>
@@ -165,8 +126,6 @@ function Home() {
         </div> */}
       </div>
       <hr className="hr" />
-
-      <Teams />
       <Footer />
     </div>
   );
