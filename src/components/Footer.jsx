@@ -3,6 +3,7 @@ import "../css/footer.css";
 import Logo from "../images/logomoiseum.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import About from "../pages/About"
 function Footer() {
   useEffect(() => {
     AOS.init();
@@ -25,7 +26,7 @@ function Footer() {
                 <a href="#">About</a>
               </li>
               <li>
-                <a href="#">Our Teams</a>
+                <a href="/src/pages/About.jsx">Our Teams</a>
               </li>
             </ul>
             <div className="social">
