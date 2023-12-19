@@ -3,7 +3,6 @@ import Patung from "../images/grouping2.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
-import Teams from "../components/Team";
 
 function About() {
   useEffect(() => {
@@ -33,8 +32,7 @@ function About() {
           </div>
 
           <div className="about-desc" data-aos="fade-up">
-            <p>Museum Exhibition Website hadir untuk para penggiat sejarah indonesia kami menghadirkan display museum terbaik untuk anda.</p>
-            <div className="button-readmore">Selengkapnya</div>
+            <p>Selamat datang di situs resmi Museum Budaya Indonesia! Kami berkomitmen untuk mempersembahkan warisan budaya yang kaya dan beragam dari Indonesia melalui platform daring ini. Dengan gembira, kami membuka pintu virtual ke khazanah sejarah, seni, dan tradisi yang membanggakan..</p>
           </div>
         </div>
       </div>
@@ -46,16 +44,19 @@ function About() {
         </div>
         <div className="container-flex" data-aos="fade-right">
           <div className="title-container">
-            {" "}
             <h1>
               Cerita Kita <span style={{ color: "#4aa9f7" }}>Indonesia</span>
             </h1>
+          </div>
+          <div className="about-desc" data-aos="fade-up" style={{ textAlign: 'right' }}>
+            <p>
+              Kami hadir untuk mengundang Anda dalam perjalanan tak terlupakan melintasi ruang dan waktu, menyelami keindahan seni tradisional, menggali kisah-kisah heroik, dan merasakan kekayaan budaya Indonesia yang mempesona. Melalui koleksi kami, Anda akan menemukan bagaimana nilai-nilai luhur dan keindahan seni telah menjadi bagian integral dari perjalanan sejarah bangsa ini.
+            </p>
           </div>
         </div>
       </div>
       <hr className="hr" />
 
-      <Teams />
       <Footer />
     </div>
   );
