@@ -51,7 +51,7 @@ function Home() {
           <div className="title-container">
             {" "}
             <h1>
-              Cerita Kita <span style={{ color: "#4aa9f7" }}>Indonesia</span>
+              Museum Indonesia <span style={{ color: "#4aa9f7" }}>Menampilkan</span>
             </h1>
           </div>
           <div className="card-container" data-aos="fade-right">
@@ -60,7 +60,7 @@ function Home() {
               <div className="title-card">
                 <h2>Pembentukan BPUPKI</h2>
               </div>
-              <div className="desc-card">Badan Usaha Persiapan Kemerdekaan Indonesia atau Dokuritsu Junbi Cosakai adalah badan yang didirikan untuk mempersiapkan komponen ...</div>
+              <div className="desc-card"  style={{ fontSize: '20px' }}>Badan Usaha Persiapan Kemerdekaan Indonesia atau Dokuritsu Junbi Cosakai adalah badan yang didirikan untuk mempersiapkan komponen ...</div>
               <div className="play-button">
                 <Link className="circle" to="/sejarah-pembentukan-bpupki">
                   <BsFillPlayFill color="#0c0d36" />
@@ -73,7 +73,7 @@ function Home() {
               <div className="title-card">
                 <h2>Pembentukan PPKI</h2>
               </div>
-              <div className="desc-card">Panitia Persiapan Kemerdekaan Indonesia atau Dokuritsu Junbi Inkai adalah badan yang dibentuk Jepang untuk mempersiapkan kemerdekaan Indonesia ...</div>
+              <div className="desc-card" style={{ fontSize: '19px' }}>Panitia Persiapan Kemerdekaan Indonesia atau Dokuritsu Junbi Inkai adalah badan yang dibentuk Jepang untuk mempersiapkan kemerdekaan Indonesia ...</div>
               <div className="play-button">
                 <Link className="circle" to="/sejarah-pembentukan-ppki">
                   <BsFillPlayFill color="#0c0d36" />
@@ -86,7 +86,7 @@ function Home() {
               <div className="title-card">
                 <h2 style={{ fontSize: 34, lineHeight: 1 }}>Pengeboman Hiroshima dan Nagasaki</h2>
               </div>
-              <div className="desc-card">Peristiwa pengeboman Hiroshima dan Nagasaki oleh sekutu menjadi faktor eksternal yang memengaruhi peristiwa Proklamasi Kemerdekaan. ...</div>
+              <div className="desc-card" style={{ fontSize: '20px' }}>Peristiwa pengeboman Hiroshima dan Nagasaki oleh sekutu menjadi faktor eksternal yang memengaruhi peristiwa Proklamasi Kemerdekaan. ...</div>
               <div className="play-button">
                 <Link className="circle" to="sejarah-pengeboman-hiroshimadannagasaki">
                   <BsFillPlayFill color="#0c0d36" />
@@ -99,7 +99,7 @@ function Home() {
               <div className="title-card">
                 <h2 style={{ fontSize: 40, lineHeight: 1 }}>Peristiwa Rengasdengklok</h2>
               </div>
-              <div className="desc-card">Menyerahnya Jepang kepada Sekutu menimbulkan tekanan Golongan Muda agar Golongan Tua segera mempercepat proklamasi kemerdekaan. Namun kedua tokoh Golongan Tua ...</div>
+              <div className="desc-card" style={{ fontSize: '20px' }}>Menyerahnya Jepang kepada Sekutu menimbulkan tekanan Golongan Muda agar Golongan Tua segera mempercepat proklamasi kemerdekaan. Namun kedua tokoh Golongan Tua ...</div>
               <div className="play-button">
                 <Link className="circle" to="/sejarah-peristiwa-rengasdengklok">
                   <BsFillPlayFill color="#0c0d36" />
@@ -112,7 +112,7 @@ function Home() {
               <div className="title-card">
                 <h2 style={{ fontSize: 33, lineHeight: 1 }}>Penyusunan Naskah Proklamasi</h2>
               </div>
-              <div className="desc-card">Badan Usaha Persiapan Kemerdekaan Indonesia atau Dokuritsu Junbi Cosakai adalah badan yang didirikan untuk mempersiapkan komponen ...</div>
+              <div className="desc-card" style={{ fontSize: '20px' }}>Badan Usaha Persiapan Kemerdekaan Indonesia atau Dokuritsu Junbi Cosakai adalah badan yang didirikan untuk mempersiapkan komponen ...</div>
               <div className="play-button">
                 <Link className="circle" to="/sejarah-penyusunan-naskahproklamasi">
                   <BsFillPlayFill color="#0c0d36" />

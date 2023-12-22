@@ -17,7 +17,7 @@ function Footer() {
           <div className="col col1" data-aos="fade-right">
             <img src={Logo} alt="gambar logo moiseum" />
             <h1>...</h1>
-            <p>BELAJAR SEJARAH BERSAMA MUSEUM</p>
+            <p>BELAJAR BERSAMA CULTURE MUSEUM</p>
           </div>
           <div className="col col2" data-aos="fade-right">
             <ul>
@@ -37,7 +37,7 @@ function Footer() {
             </div>
           </div>
           <div className="col col3" data-aos="fade-right">
-            <h3>JADILAH YANG PERTAMA UNTUK MENDENGAR KABAR DARI KAMI</h3>
+          <h3>HUBUNGI KAMI BILA INGIN BELAJAR LEBIH BANYAK</h3>
             <input type="text" />
             <span>E-MAIL</span>
             <button>SUBSCRIBE</button>

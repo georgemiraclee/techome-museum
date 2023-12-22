@@ -42,18 +42,18 @@ function About() {
         <div className="ie-2" data-aos="fade-right">
           <span></span>
         </div>
-        <div className="container-flex" data-aos="fade-right">
-          <div className="title-container">
-            <h1>
-              Cerita Kita <span style={{ color: "#4aa9f7" }}>Indonesia</span>
-            </h1>
-          </div>
-          <div className="about-desc" data-aos="fade-up" style={{ textAlign: 'right' }}>
-            <p>
-              Kami hadir untuk mengundang Anda dalam perjalanan tak terlupakan melintasi ruang dan waktu, menyelami keindahan seni tradisional, menggali kisah-kisah heroik, dan merasakan kekayaan budaya Indonesia yang mempesona. Melalui koleksi kami, Anda akan menemukan bagaimana nilai-nilai luhur dan keindahan seni telah menjadi bagian integral dari perjalanan sejarah bangsa ini.
-            </p>
-          </div>
-        </div>
+                    <div className="container-flex" data-aos="fade-right">
+              <div className="title-container">
+                <h1>
+                  Cerita Kita <span style={{ color: "#4aa9f7" }}>Indonesia</span>
+                </h1>
+              </div>
+              <div className="about-desc" data-aos="fade-up">
+                <p>
+                  Kami hadir untuk mengundang Anda dalam perjalanan tak terlupakan melintasi ruang dan waktu, menyelami keindahan seni tradisional, menggali kisah-kisah heroik, dan merasakan kekayaan budaya Indonesia yang mempesona. Melalui koleksi kami, Anda akan menemukan bagaimana nilai-nilai luhur dan keindahan seni telah menjadi bagian integral dari perjalanan sejarah bangsa ini.
+                </p>
+              </div>
+            </div>
       </div>
       <hr className="hr" />
 
