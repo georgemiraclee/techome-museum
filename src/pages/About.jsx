@@ -31,7 +31,7 @@ function About() {
             <img src={Patung} alt="" className="images-patung" />
           </div>
 
-          <div className="about-desc" data-aos="fade-up">
+          <div className="about-desc" data-aos="fade-up"style={{fontSize: 20}}>
             <p>Selamat datang di situs resmi Museum Budaya Indonesia! Kami berkomitmen untuk mempersembahkan warisan budaya yang kaya dan beragam dari Indonesia melalui platform daring ini. Dengan gembira, kami membuka pintu virtual ke khazanah sejarah, seni, dan tradisi yang membanggakan..</p>
           </div>
         </div>
@@ -42,18 +42,25 @@ function About() {
         <div className="ie-2" data-aos="fade-right">
           <span></span>
         </div>
-                    <div className="container-flex" data-aos="fade-right">
-              <div className="title-container">
-                <h1>
-                  Cerita Kita <span style={{ color: "#4aa9f7" }}>Indonesia</span>
-                </h1>
-              </div>
-              <div className="about-desc" data-aos="fade-up">
-                <p>
-                  Kami hadir untuk mengundang Anda dalam perjalanan tak terlupakan melintasi ruang dan waktu, menyelami keindahan seni tradisional, menggali kisah-kisah heroik, dan merasakan kekayaan budaya Indonesia yang mempesona. Melalui koleksi kami, Anda akan menemukan bagaimana nilai-nilai luhur dan keindahan seni telah menjadi bagian integral dari perjalanan sejarah bangsa ini.
-                </p>
-              </div>
-            </div>
+        <div
+          className="about-bpupki-container"
+          style={{ position: "relative" }}
+        >
+          <div className="title-bpupki" data-aos="fade-right">
+            <h1>
+              Cerita kita{" "}
+              <span style={{ fontSize: 90 }}>
+                {" "}
+                <span className="a">MUSE</span>UM
+              </span>{" "}
+            </h1>
+          </div>
+          <div className="desc-bpupki" data-aos="fade-left">
+            <p>
+            Kami hadir untuk mengundang Anda dalam perjalanan tak terlupakan melintasi ruang dan waktu, menyelami keindahan seni tradisional, menggali kisah-kisah heroik, dan merasakan kekayaan budaya Indonesia yang mempesona. Melalui koleksi kami, Anda akan menemukan bagaimana nilai-nilai luhur dan keindahan seni telah menjadi bagian integral dari perjalanan sejarah bangsa ini.
+            </p>
+          </div>
+        </div>
       </div>
       <hr className="hr" />
 
